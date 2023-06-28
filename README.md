@@ -1,6 +1,8 @@
 # Evaluation certificative Script Server
 
-Ce projet nécessite un serveur Web (par exemple Wamp).
+Ce projet requiert un serveur Web pour être exécuté.<br> 
+Il est recommandé d'utiliser un serveur tel que Wamp pour assurer une compatibilité optimale.<br> 
+Vous devez également vous assurer d'avoir une connexion Internet active pour accéder aux dépendances externes, telles que les fichiers CSS et JavaScript, qui peuvent être chargés à partir de sources en ligne.
 
 ## Prérequis
 
@@ -35,7 +37,7 @@ Il existe deux façons d'installer le projet :
    
 ##  Importez la base de données en utilisant par exemple PHPMyAdmin :
 1. Ouvrez PHPMyAdmin dans votre navigateur.
-2. Créez une nouvelle base de données vide.
+2. Créez une nouvelle base de données vide et nommez-la "webex".
 3. Importez le fichier `sql/webex.sql` dans la base de données que vous venez de créer.
 
 Vous pouvez maintenant passer à l'étape suivante de configuration du projet.
