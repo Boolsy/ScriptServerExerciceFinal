@@ -1,0 +1,110 @@
+body {
+  background-image: url("https://image.noelshack.com/fichiers/2023/25/1/1687182789-vecteezy-white-background-with-orange-geometric-11171111.jpg");
+  align-items: center;
+  margin: 0;
+}
+
+table {
+  background-color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.table-container {
+  margin: 0 auto;
+  width: 70%;
+  height: 680px;
+  padding-top: 20px;
+  overflow: auto;
+
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+
+}
+
+.alert-container {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.close-button {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-info {
+  background-color: #e0c233;
+  border: none;
+  color: #000000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: red;
+}
+
+.navbar important {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 1s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+/
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar ul li a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  transition: all 0.7s;
+  padding-bottom: 3px;
+  border-bottom: 3px transparent solid;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 3px #e0c233 solid;
+  transition: all 0.7s;
+}
+
+
+.form-group {
+  padding: 10px;
+}
+
+
+
